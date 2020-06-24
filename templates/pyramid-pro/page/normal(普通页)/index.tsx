@@ -10,6 +10,8 @@ interface I{{fileName}}Props extends FormComponentProps {
 
 const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
 
+  const {form, form: { getFieldDecorator } } = props;
+
   useEffect(() => {
 
   }, []);
@@ -17,9 +19,7 @@ const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
   return (
     <PageHeaderWrapper title={false}>
       <Card bordered={false}>
-
       </Card>
-
     </PageHeaderWrapper>
   )
 };
