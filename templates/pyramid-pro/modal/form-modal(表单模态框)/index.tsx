@@ -84,4 +84,4 @@ const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
   )
 };
 
-export default {{fileName}};
+export default Form.create<I{{fileName}}Props>()({{fileName}});
