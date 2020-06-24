@@ -23,7 +23,7 @@ const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
     setTimeout(() => {
       props.close(data);
     },300);
-  }
+  };
 
   const handleSubmit = () => {
     form.validateFields((err, fieldsValue) => {

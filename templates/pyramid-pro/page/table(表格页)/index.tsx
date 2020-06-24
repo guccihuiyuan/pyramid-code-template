@@ -127,21 +127,21 @@ const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
         />
       </Card>
 
-      // {
-      //   modalVisible ? (
-      //       <AddModal
-      //           visible={modalVisible}
-      //           params={modalParams}
-      //           close={success => {
-      //             setModalParams(undefined);
-      //             setModalVisible(false);
-      //             if (success) {
-      //               simpleTable?.loadData();
-      //             }
-      //           }}
-      //       />
-      //   ): null
-      // }
+      {/*{*/}
+      {/*  modalVisible ? (*/}
+      {/*    <AddModal*/}
+      {/*      visible={modalVisible}*/}
+      {/*      params={modalParams}*/}
+      {/*      close={success => {*/}
+      {/*        setModalParams(undefined);*/}
+      {/*        setModalVisible(false);*/}
+      {/*        if (success) {*/}
+      {/*          simpleTable?.loadData();*/}
+      {/*        }*/}
+      {/*      }}*/}
+      {/*    />*/}
+      {/*  ): null*/}
+      {/*}*/}
 
     </PageHeaderWrapper>
   )

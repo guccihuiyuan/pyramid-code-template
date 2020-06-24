@@ -15,7 +15,7 @@ const {{fileName}}: React.FC<I{{fileName}}Props> = props => {
     setTimeout(() => {
       props.close(data);
     },300);
-  }
+  };
 
   return (
     <Modal
